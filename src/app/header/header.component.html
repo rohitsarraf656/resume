@@ -1,0 +1,34 @@
+<mat-toolbar class="header-container">
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link [routerLink]="['home']"
+      ><span class="main-header">{{ "Rohit Kumar" }}</span></a
+    >
+    <a mat-tab-link [routerLink]="['home']">
+      <span routerLinkActive="active-underline" class="nav-items">{{
+        "Home"
+      }}</span>
+    </a>
+    <a mat-tab-link [routerLink]="['about']">
+      <span routerLinkActive="active-underline" class="nav-items">{{
+        "About"
+      }}</span>
+    </a>
+    <a mat-tab-link [routerLink]="['projects']">
+      <span routerLinkActive="active-underline" class="nav-items">{{
+        "Projects"
+      }}</span>
+    </a>
+    <a mat-tab-link [routerLink]="['contact']">
+      <span routerLinkActive="active-underline" class="nav-items">{{
+        "Contact"
+      }}</span>
+    </a>
+  </nav>
+  <span class="example-spacer"></span>
+  <button mat-icon-button aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>

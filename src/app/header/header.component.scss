@@ -1,0 +1,56 @@
+.header-container {
+  background-color: rgb(40, 76, 121);
+  color: white;
+  height: 15vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 2rem;
+  z-index: 1;
+}
+.main-header {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+.nav-items {
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+// nav {
+//   a {
+//     span {
+//       position: relative;
+//     }
+//     span:hover {
+//       content: "";
+//       position: absolute;
+//       bottom: 0;
+//       left: 0;
+//       height: 2px;
+//       transition: all 500ms;
+//       width: 0%;
+//       border-bottom: 1px solid;
+//       box-sizing: border-box;
+//     }
+//   }
+// }
+nav a span {
+  position: relative;
+}
+.active-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 15px;
+  border-bottom: 1px solid;
+  transition: all 1s;
+}
+.active-underline:hover {
+  background-color: blueviolet;
+}

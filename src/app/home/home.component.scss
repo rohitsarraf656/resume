@@ -1,0 +1,27 @@
+.image-with-contents {
+  text-align: center;
+}
+
+.text-inside-image {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  font-size: 3rem;
+  color: white;
+  font-style: oblique;
+}
+#section1 {
+  background-color: rgb(89, 119, 168);
+  text-align: center;
+  padding-top: 1rem;
+  position: relative;
+  color: white;
+  top: -1rem;
+}
+#section2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -1rem;
+}
