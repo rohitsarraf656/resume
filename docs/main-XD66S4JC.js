@@ -14193,7 +14193,7 @@ var md = (() => {
       consts: [
         ["id", "home-contents", 1, "main-container"],
         ["id", "img-contents", 1, "image-with-contents"],
-        ["src", "../assets/home.jpg", 1, "image-container"],
+        ["src", "assets/home.jpg", 1, "image-container"],
         [1, "text-inside-image"],
         [2, "margin", "0"],
         [2, "margin", "0", "font-size", "2rem"],
@@ -15753,7 +15753,7 @@ var FE = () => ["/projects"],
         vars: 2,
         consts: [
           [1, "main-container"],
-          ["src", "../assets/about.jpg", 1, "image-container"],
+          ["src", "assets/about.jpg", 1, "image-container"],
           [1, "card-position"],
           [1, "card-container"],
           [2, "text-align", "center"],
